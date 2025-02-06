@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #222;
+    color: #ddd;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff7e5f;
+    color: black;
+}
