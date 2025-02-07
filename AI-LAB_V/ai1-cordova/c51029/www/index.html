@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja Pogodowa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <main class="content">
+            <h1>Aplikacja Pogodowa</h1>
+            <div class="search-bar">
+                <input type="text" id="city" placeholder="Wpisz miasto">
+                <button id="getWeather">Pobierz pogodę</button>
+            </div>
+            <section class="current-weather">
+                <h2>Aktualna Pogoda</h2>
+                <div id="currentWeatherDetails">
+                    <img id="currentWeatherIcon" src="" alt="Ikona pogody">
+                    <p id="currentWeatherText"></p>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Prognoza na 5 dni</h2>
+                <div id="forecastDetails" class="forecast-grid"></div>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

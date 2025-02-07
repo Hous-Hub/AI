@@ -1,0 +1,8 @@
+{
+    "width": 800,
+    "height": 600,
+    "fullscreen": false,
+    "backgroundColor": "#ffffff",
+    "resizable": true,
+    "autoHideMenuBar": true
+}
